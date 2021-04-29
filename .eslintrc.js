@@ -4,8 +4,6 @@ module.exports = {
   ignorePatterns: [],
   rules: {
     semi: ['error', 'never'],
+    'react-hooks/exhaustive-deps': 'warn',
   },
-  rules: {
-    'react-hooks/exhaustive-deps': "warn"
-  },
-};
+}
